@@ -1,0 +1,103 @@
+header  {
+     position: fixed;
+     right: 40px;
+     background-color: antiquewhite;
+     
+    
+}
+main{
+    margin: 0px 30px 0 30px;
+  
+}
+body{
+    background-color: #F8E0E6;
+}
+
+h1 {
+    text-align: center;
+    padding: 80px;
+    font-size: 80px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+
+}
+
+.chapter{
+    display: flex;
+
+} 
+
+.spalte{
+    padding: 30px;
+    column-count: 3;
+    font-size: 22px; 
+    font-family: 'Gayathri', sans-serif;
+    
+}
+
+img {
+    width: 320px;
+}
+
+p{
+    font-family: 'Gayathri', sans-serif;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: antiquewhite;
+    background-position: 100%;
+    padding: 15px;
+}
+
+
+footer h3{
+    text-align: start;
+    margin-left: 15px;
+}
+
+ 
+li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Gayathri', sans-serif;
+    text-transform: uppercase;
+}
+input[type="text"],
+input[type="email"]{
+    background-color: transparent;
+    border: 1px solid black;
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: 'Gayathri', sans-serif;
+    
+
+}
+
+button{
+    width: 80px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Gayathri', sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+::placeholder{
+    color: black;
+    font-size: 16px;
+    font-family: 'Gayathri', sans-serif;
+ 
+}
